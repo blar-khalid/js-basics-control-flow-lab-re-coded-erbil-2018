@@ -13,13 +13,14 @@ function scuberGreetingForFeet(param)
     return 'No can do.';
   }
 }
+
 function ternaryCheckCity(param1){
   if(param1===NYC){
     return  "Ok, sounds good." 
   }
   
   else{
-    'No go.'
+   return 'No go.'
   }
   
 }
