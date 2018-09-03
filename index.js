@@ -19,7 +19,7 @@ function ternaryCheckCity(param1){
   }
   
   else{
-    
+    return 'No go.'
   }
   
 }
