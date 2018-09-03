@@ -13,3 +13,8 @@ function scuberGreetingForFeet(param)
     return 'No can do.';
   }
 }
+function ternaryCheckCity(param1){
+  if(){}
+  else
+  
+}
