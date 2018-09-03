@@ -26,26 +26,19 @@ function ternaryCheckCity(city){
 }
 function switchOnCharmFromTip(param2){
       switch (param2) {
-    case 0:
-       
+    case 'generous' :
+         return  "Thank you so much." 
         break;
-    case 1:
-        day = "Monday";
+   case 'not as generous' :
+         return  "Thank you." 
         break;
-    case 2:
-        day = "Tuesday";
-        break;
+  default:
+     return  "Bye." 
+    break;
    
- ;
+ 
 }
-       
-        if(tip==='generous'){
-        return  "Thank you so much." 
-        }else if(tip === 'not as generous'){
-          return "Thank you."
-        }else{
-          return "Bye."
-        }
+     
 }
 
 
